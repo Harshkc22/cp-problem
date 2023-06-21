@@ -41,7 +41,7 @@ int main(){
       int c[n];
       int flag=1;
       for(int i=0;i<n;i++){
-        c[i]=b[i]-a[i];
+        c[i]=a[i]-b[i];
       }
       for(int i=0;i<n;i++){
         if(c[i]<0){
