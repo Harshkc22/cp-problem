@@ -1,13 +1,26 @@
 # Editorial
 <h3>Brief Description:</h3>
-<p>Given an integer N, Second line contains N integers, which are strength of vaccines.
-Third line contains N integers, which are midichlorians count of patients.
-Print a single line containing 'Yes' if doctor can rescue all patients or 'No' otherwise.</p>
+<p>Given an integer N, Second line contains N integers, which are power of spells.
+Third line contains N integers, which are health of monsters.
+Print a single line containing 'Yes' if wizards can rescue the village or 'No' otherwise.</p>
 
 --------
 
 <h3>Detailed Editorial:</h3>
 This question has a very short and easy solution:
 
-as you can easily sort the vaccines and midichlorians in ascending order
-Then start a loop from the first patient and compare the vaccine with the midichlorian:
+as you can easily sort the spells and helaths of monsters in ascending order.
+Then start a loop from the first monster's health and compare the spell's power with the health of monster:
+
+If the corresponding monster is stronger than the spell: Just print "No" as the wizards can't save the village.
+
+If you complete the loop and every monster is killed then print "Yes".
+
+**Time Complexity:** O(NlogN).<br>
+**Memory Space Complexity** O(N).
+
+<h4>Solution in C++:</h4>
+
+```
+
+```
